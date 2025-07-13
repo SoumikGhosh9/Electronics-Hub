@@ -3,6 +3,7 @@ import Navbar from "../CommonModule/NavModule/Navbar";
 import Footer from "../CommonModule/FooterModule/Footer";
 import CompanySlider from "./CompanySlider/CompanySlider";
 import sideImage from "../../Assets/sideImage.png";
+import ContentCard from "./ContentCard/Card.jsx"; 
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar />
       <div className={styles.homeContainer}>
         <div className={styles.heroSection}>
+          <div className={styles.headline}></div>
           <div className={styles.heroHeading}>
             <h1>
               Your One-Stop <br /> Electronics <br /> Solution!
@@ -30,10 +32,10 @@ const Home = () => {
           </div>
         </div>
         <CompanySlider />
+        <ContentCard />
       </div>
       <Footer />
     </>
   );
-};
-
+};  
 export default Home;
