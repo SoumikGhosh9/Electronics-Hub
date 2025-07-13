@@ -1,7 +1,5 @@
-.homeContainer{
-    /* background-image: url(../../assets/background.svg); */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+.homeContainer {
+    align-items: center;
+    width: var(--content-width);
+    margin: 0 auto;
 }
