@@ -1,5 +1,5 @@
 import styles from "./CompanySlider.module.css";
-import haier from "../../../Assets/haier.png";
+import haier from "../../../assets/haier.png";
 import bluestar from "../../../Assets/bluestar.png";
 import daikin from "../../../Assets/daikin.png";
 import god from "../../../Assets/god.png";
@@ -11,16 +11,7 @@ import hitachi from "../../../Assets/hitachi.png";
 import philips from "../../../Assets/philips.png";
 import boat from "../../../Assets/boat.png";
 const CompanySlider = () => {
-    const images = [
-        haier,
-        bluestar,
-        daikin,
-        god,
-        whirlpool,
-        bajaj,
-        havells,
-       
-    ];
+    const images = [haier, bluestar, daikin, god, whirlpool, bajaj, havells];
 
     const images2 = [
       voltasll,
