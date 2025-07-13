@@ -20,11 +20,11 @@ const Home = () => {
             <h3>📦 Free Shipping | 💸 Starting ₹199</h3>
           </div>
           <div className={styles.heroImage}>
-            <img src={sideImage} alt="Image"/>
+            <img src={sideImage} alt="Image" />
           </div>
         </div>
         <div className={styles.middleSection}>
-          <h1>TRY OUT OUR</h1> 
+          <h1>TRY OUT OUR</h1>
           <hr className={styles.line} />
           <div className={styles.buttons}>
             <button className={styles.button1}>Product</button>
