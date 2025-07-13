@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
-import Navbar from "../NavModule/navbar";
+import Navbar from "../NavModule/Navbar";
 
 const Home = () => {
     const images = [
