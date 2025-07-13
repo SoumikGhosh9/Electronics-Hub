@@ -2,7 +2,7 @@ import styles from "./Home.module.css";
 import Navbar from "../CommonModule/NavModule/Navbar";
 import Footer from "../CommonModule/FooterModule/Footer";
 import CompanySlider from "./CompanySlider/CompanySlider";
-import sideImage from "../../Assets/sideImage.png";
+import sideImage from "../../assets/sideImage.png";
 import ContentCard from "./ContentCard/Card.jsx"; 
 
 const Home = () => {
