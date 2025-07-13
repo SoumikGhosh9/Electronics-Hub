@@ -20,6 +20,9 @@ const Home = () => {
     <>
       <Navbar />
       <div className={styles.homeContainer}>
+        <div className={styles.heroSection}>
+          <div className={styles.headline} ></div>
+        </div>
         <div className={styles.mainContainer}>
           <div className={styles.scrollContainer}>
             <div className={styles.scrollContent}>

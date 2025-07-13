@@ -2,7 +2,6 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import Navbar from "./Components/NavModule/navbar.jsx";
 import Home from "./Components/HomeModule/Home.jsx";
 
 function App() {
@@ -12,7 +11,6 @@ function App() {
         <>
 
             <div className="header">
-                {/* <Navbar></Navbar> */}
                 <Home/>
             </div>
 
