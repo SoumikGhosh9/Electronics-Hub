@@ -2,13 +2,21 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import Navbar from "./Components/NavModule/navbar.jsx";
+import Home from "./Components/HomeModule/Home.jsx";
 
 function App() {
     const [count, setCount] = useState(0);
 
     return (
         <>
-            <div className="construction-header">
+
+            <div className="header">
+                {/* <Navbar></Navbar> */}
+                <Home/>
+            </div>
+
+            {/* <div className="construction-header">
                 <div className="logo-container">
                     <img src={viteLogo} className="logo" alt="Vite logo" />
                     <img
@@ -25,9 +33,9 @@ function App() {
                         enthusiasts!
                     </p>
                 </div>
-            </div>
+            </div> */}
 
-            <div className="content-section">
+            {/* <div className="content-section"> */}
                 {/* <div className="features-preview">
                     <h3>Coming Soon:</h3>
                     <ul className="feature-list">
@@ -39,7 +47,7 @@ function App() {
                     </ul>
                 </div> */}
 
-                <div className="progress-section">
+                {/* <div className="progress-section">
                     <h3>Development Progress</h3>
                     <div className="progress-bar">
                         <div
@@ -81,7 +89,7 @@ function App() {
 
             <footer className="construction-footer">
                 <p>Built with React + Vite | Electronics Hub Team 2025</p>
-            </footer>
+            </footer> */}
         </>
     );
 }
