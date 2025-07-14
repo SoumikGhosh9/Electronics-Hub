@@ -13,12 +13,7 @@ import boat from "../../../assets/boat.png";
 const CompanySlider = () => {
     const images = [haier, bluestar, daikin, god, whirlpool, bajaj, havells];
 
-    const images2 = [
-      voltasll,
-      hitachi,
-      philips,
-      boat,
-    ];
+    const images2 = [voltasll, hitachi, philips, boat, daikin, god, haier];
 
     return (
         <div className={styles.companySlider}>
